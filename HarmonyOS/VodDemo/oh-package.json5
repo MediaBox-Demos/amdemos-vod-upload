@@ -1,0 +1,13 @@
+{
+  "name": "vod-demo",
+  "version": "1.0.0",
+  "description": "VOD上传SDK演示应用",
+  "main": "",
+  "author": "Alibaba Cloud",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "@aliyun_video_cloud/vod-upload-sdk": "^1.0.0", // 请使用最新的稳定版本
+  },
+  "devDependencies": {
+  }
+}

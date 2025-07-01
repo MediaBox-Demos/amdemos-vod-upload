@@ -1,0 +1,40 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "VOD上传SDK演示应用"
+    },
+    {
+      "name": "EntryAbility_desc",
+      "value": "VOD上传SDK演示"
+    },
+    {
+      "name": "EntryAbility_label",
+      "value": "VOD演示"
+    },
+    {
+      "name": "internet_permission_reason",
+      "value": "需要网络权限进行文件上传"
+    },
+    {
+      "name": "network_info_permission_reason",
+      "value": "需要获取网络信息以监控网络状态变化"
+    },
+    {
+      "name": "read_media_permission_reason",
+      "value": "需要读取媒体文件权限以选择上传文件"
+    },
+    {
+      "name": "write_media_permission_reason",
+      "value": "需要写入媒体文件权限以保存上传进度"
+    },
+    {
+      "name": "file_access_permission_reason",
+      "value": "需要文件访问权限以管理上传文件"
+    },
+    {
+      "name": "permission_reason_background_running",
+      "value": "为了在应用退到后台时仍能继续上传文件，我们需要保持后台运行。"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "app": {
+    "signingConfigs": [
+      {
+        "name": "default",
+        "type": "HarmonyOS",
+        "material": {
+          "certpath": "/Users/ning/.ohos/config/default_vod_upload_sdk_Us1D-SQAYoaGddQkOU0hj7h64qMdUpIBsGxl7N4y734=.cer",
+          "keyAlias": "debugKey",
+          "keyPassword": "0000001BA4D3D6473AA5D14EE73ADAAC3B53D77D969F6A6E6DBC33238493D1DC2E06AE728B5C584CB2A8CE",
+          "profile": "/Users/ning/.ohos/config/default_vod_upload_sdk_Us1D-SQAYoaGddQkOU0hj7h64qMdUpIBsGxl7N4y734=.p7b",
+          "signAlg": "SHA256withECDSA",
+          "storeFile": "/Users/ning/.ohos/config/default_vod_upload_sdk_Us1D-SQAYoaGddQkOU0hj7h64qMdUpIBsGxl7N4y734=.p12",
+          "storePassword": "0000001BFEC36A3584FCCB675FFE4CB7F5F4F7FFA8D91BBA075B2FF9AD6652649FF7DF7D2E9AFB8F26841B"
+        }
+      }
+    ],
+    "products": [
+      {
+        "name": "default",
+        "signingConfig": "default",
+        "targetSdkVersion": "5.0.5(17)",
+        "compatibleSdkVersion": "5.0.0(12)",
+        "runtimeOS": "HarmonyOS",
+        "buildOption": {
+          "strictMode": {
+            "caseSensitiveCheck": true,
+            "useNormalizedOHMUrl": true
+          }
+        }
+      }
+    ],
+    "buildModeSet": [
+      {
+        "name": "debug",
+      },
+      {
+        "name": "release"
+      }
+    ]
+  },
+  "modules": [
+    {
+      "name": "VodDemo",
+      "srcPath": "./VodDemo",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    }
+  ]
+}
